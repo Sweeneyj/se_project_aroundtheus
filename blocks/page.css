@@ -1,0 +1,14 @@
+.page { 
+    background-color: black;
+    color: white;
+}
+.page__section{
+    max-width: 880px;
+    width:100px;
+
+}
+.page__content{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
