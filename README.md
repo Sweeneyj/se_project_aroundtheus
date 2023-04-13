@@ -10,7 +10,7 @@
   
 This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
 
- Project Title: Around the US
+ Project Title: Around the US.
  Project Description: This project utilized adaptive layouts so the website looks professional whether a mobile phone or other device is used. This project helped me improve my skills in HTML/CSS and utilized Figma for the first time. 
 
 
