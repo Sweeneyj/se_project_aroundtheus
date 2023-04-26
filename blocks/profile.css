@@ -9,7 +9,7 @@
     "title button"
     "description description";
   grid-template-columns: minmax(auto, 373px) auto;
-  grid-gap: 25px 16px;
+  grid-gap: 7px 16px;
   align-items: center;
 }
 .profile__edit-button {
@@ -23,6 +23,7 @@
   padding: 0;
   transition: opacity 0.5s ease-in-out;
   cursor: pointer;
+  margin-right: 0;
 }
 .profile__edit-button:hover {
   opacity: 0.6;
@@ -72,6 +73,7 @@
   background-position: center;
   margin-right: 24px;
 }
+
 @media screen and (max-width: 571px) {
   .profile {
     flex-direction: column;
@@ -116,5 +118,13 @@
   .profile__edit-button {
     width: 18px;
     height: 18px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .profile__info {
+    margin-top: 16px;
+  }
+  .profile__description {
+    padding-top: 0;
   }
 }
