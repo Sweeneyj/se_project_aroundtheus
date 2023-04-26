@@ -19,11 +19,12 @@
   grid-area: button;
   border: 1px solid #ffffff;
   margin: auto;
-  margin-left: 18px;
-  padding: 0;
+  margin-right:20px;
+ 
+
   transition: opacity 0.5s ease-in-out;
   cursor: pointer;
-  margin-right: 0;
+  
 }
 .profile__edit-button:hover {
   opacity: 0.6;
@@ -74,6 +75,7 @@
   margin-right: 24px;
 }
 
+
 @media screen and (max-width: 571px) {
   .profile {
     flex-direction: column;
@@ -122,9 +124,14 @@
 }
 @media screen and (max-width: 320px) {
   .profile__info {
-    margin-top: 16px;
+    margin-top: 0;
+    padding-top: 0;
+    
   }
   .profile__description {
     padding-top: 0;
+  }
+  .profile__edit-button {
+   margin-left:0;
   }
 }
