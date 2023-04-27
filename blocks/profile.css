@@ -75,6 +75,11 @@
   margin-right: 24px;
 }
 
+@media screen and (max-width: 1000px) {
+  .profile__add-button {
+    margin-left:26px;
+  }
+}
 
 @media screen and (max-width: 571px) {
   .profile {
@@ -125,8 +130,8 @@
 }
 @media screen and (max-width: 320px) {
   .profile__info {
-    margin-top: 5px;
-    padding-top: 5px;
+    margin-top: 26px;
+    padding-top: 26px;
     
   }
   .profile__description {
