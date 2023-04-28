@@ -131,6 +131,7 @@
 @media screen and (max-width: 320px) {
   .profile__info {
     margin-top: 26px;
+    padding-top:0px;
   }
   .profile__description {
     padding-top: 0;
